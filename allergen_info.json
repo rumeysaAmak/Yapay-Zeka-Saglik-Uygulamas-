@@ -1,0 +1,125 @@
+{
+    "AllergenInfo": {
+        "Peanut": {
+            "description": "Peanut is a common allergen that can cause severe allergic reactions.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Milk": {
+            "description": "Milk contains proteins that can trigger allergic reactions in some people.",
+            "symptoms": "Hives, vomiting, diarrhea, anaphylaxis."
+        },
+        "Soy": {
+            "description": "Soy is a legume that can cause allergic reactions in sensitive individuals.",
+            "symptoms": "Hives, itching, abdominal pain, anaphylaxis."
+        },
+        "Egg": {
+            "description": "Egg allergy is common in children and can cause a variety of symptoms.",
+            "symptoms": "Skin reactions, respiratory issues, anaphylaxis."
+        },
+        "Wheat": {
+            "description": "Wheat allergy is caused by a reaction to proteins found in wheat.",
+            "symptoms": "Hives, stomach cramps, nausea, anaphylaxis."
+        },
+        "Tree nuts": {
+            "description": "Tree nuts, such as almonds, cashews, and walnuts, are common allergens.",
+            "symptoms": "Hives, swelling, difficulty breathing, anaphylaxis."
+        },
+        "Fish": {
+            "description": "Fish allergies are common and can cause severe reactions.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Shellfish": {
+            "description": "Shellfish, such as shrimp, crab, and lobster, can trigger allergic reactions.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Sesame": {
+            "description": "Sesame seeds can cause allergic reactions in some individuals.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Mustard": {
+            "description": "Mustard allergy can cause a variety of symptoms and is common in some regions.",
+            "symptoms": "Hives, asthma, anaphylaxis."
+        },
+        "Celery": {
+            "description": "Celery can cause severe allergic reactions in sensitive individuals.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Gluten": {
+            "description": "Gluten allergy or intolerance can cause gastrointestinal and other symptoms.",
+            "symptoms": "Bloating, diarrhea, headache."
+        },
+        "Lupin": {
+            "description": "Lupin is a legume that can cause allergic reactions similar to peanut allergy.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Molluscs": {
+            "description": "Molluscs, such as snails, clams, and oysters, can cause allergic reactions.",
+            "symptoms": "Hives, swelling, anaphylaxis."
+        },
+        "Almonds": {
+            "description": "Almonds are a type of tree nut that can cause severe allergic reactions.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Cashews": {
+            "description": "Cashews are tree nuts that can trigger allergic reactions in sensitive individuals.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Walnuts": {
+            "description": "Walnuts are a common tree nut allergen that can cause serious allergic reactions.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Hazelnuts": {
+            "description": "Hazelnuts are a type of tree nut that can cause allergic reactions.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Pecans": {
+            "description": "Pecans are tree nuts that can trigger allergic reactions in some individuals.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Pistachios": {
+            "description": "Pistachios are tree nuts that can cause allergic reactions.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Corn": {
+            "description": "Corn is a common allergen found in many processed foods.",
+            "symptoms": "Hives, abdominal pain, diarrhea, anaphylaxis."
+        },
+        "ArtificialColors": {
+            "description": "Artificial colors, such as Red 40 or Yellow 5, can cause allergic reactions in some individuals.",
+            "symptoms": "Hives, itching, swelling, asthma."
+        },
+        "Preservatives": {
+            "description": "Certain preservatives, like sulfites, can trigger allergic reactions.",
+            "symptoms": "Hives, breathing difficulties, asthma."
+        },
+        "Poppy seeds": {
+            "description": "Poppy seeds can cause allergic reactions in some people.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Sunflower seeds": {
+            "description": "Sunflower seeds can trigger allergic reactions in sensitive individuals.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Barley": {
+            "description": "Barley contains gluten and can cause reactions in those with gluten sensitivity.",
+            "symptoms": "Bloating, diarrhea, abdominal pain."
+        },
+        "Rye": {
+            "description": "Rye contains gluten and can cause reactions in those with gluten sensitivity.",
+            "symptoms": "Bloating, diarrhea, abdominal pain."
+        },
+        "Oats": {
+       
+            "description": "Oats can be contaminated with gluten and cause reactions in those with gluten sensitivity.",
+            "symptoms": "Bloating, diarrhea, abdominal pain."
+        },
+        "Mango": {
+            "description": "Mango can cause allergic reactions in some individuals, especially in the skin.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        },
+        "Papaya": {
+            "description": "Papaya can trigger allergic reactions in sensitive individuals.",
+            "symptoms": "Hives, itching, swelling, anaphylaxis."
+        }
+    }
+}

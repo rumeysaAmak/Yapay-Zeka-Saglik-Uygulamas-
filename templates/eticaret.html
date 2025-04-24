@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allergen Detection</title>
+</head>
+<body>
+    <h1>Allergen Detection</h1>
+    <form action="/predict" method="post">
+        <label for="main_ingredient">Main Ingredient:</label>
+        <input type="text" id="main_ingredient" name="Main Ingredient"><br><br>
+        <label for="sweetener">Sweetener:</label>
+        <input type="text" id="sweetener" name="Sweetener"><br><br>
+        <label for="fat_oil">Fat/Oil:</label>
+        <input type="text" id="fat_oil" name="Fat/Oil"><br><br>
+        <label for="seasoning">Seasoning:</label>
+        <input type="text" id="seasoning" name="Seasoning"><br><br>
+        <label for="allergens">Allergens:</label>
+        <input type="text" id="allergens" name="Allergens"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <div id="result">
+        {% if prediction is not none %}
+            <h2>Prediction: {{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
+

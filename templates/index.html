@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa | HealtyLife</title>
+    <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        *{
+    box-sizing: border-box; 
+ }
+
+ body{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+ }
+
+ #menu{
+    height: 80px;
+    padding: 0 20px;
+ }
+
+ #logo{
+    font-size: 30px;
+    line-height: 80px;
+    color:#003666;
+    float: left;
+ }
+
+ nav{
+    float: right;
+    line-height: 80px;
+ }
+
+ nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#003666;
+
+ }
+
+ nav a:hover{
+    border-bottom: 2px solid;
+ }
+
+ nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#003666;
+ }
+
+.ikon{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    height: 615px;
+    background-image: url('/static/resimmm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+
+#black{
+    height: 615px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600px;
+
+}
+
+h3{
+    font-size: 55px;
+    color: #003666;
+    
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size:25px ;
+    width: 400px;
+    color: #445c6e;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+   font-size: 50px;
+   margin-right: 7px;
+   line-height: 42px;
+   color:#546878;
+   font-weight: 600;
+   float: left;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    color:#50616f;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    width: 1000px;
+    height: 300px;
+}
+
+.mt100{
+    margin-top:30px ;
+}
+
+#pson{
+   color:#50616f;
+   letter-spacing: 1px;
+   font-size: 15px;
+   line-height: 1.8; 
+   margin-top:30px ;
+   font-weight: 100;
+}
+
+#ModelTahmin{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+#prediction-form{
+   
+    height:200px ;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    float: left;
+}
+.form-group input {
+    box-shadow: 0px 0px 6px #dadef2 ;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dadef2;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#OcrAnaliz{
+    background-color: #355e82;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+#ocr3{
+    color: #fff;
+
+}
+
+#iletisim{
+    background: url('/static/iletisim.jpg');
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color: #fff;
+}
+
+#iletisimopak{
+    background: rgba(255,255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgrupp{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color:#495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+textarea{
+    font-family: Arial,  sans-serif;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color:#445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+#adresbaslik{
+    font-size: 30px;
+    color: #fff;
+}
+.adresp{
+    color:#ddd;
+    font-size: 15px;
+    letter-spacing:1.5px ;
+}
+#copyright{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+#up{
+    color:white;
+   
+    border-radius: 50%;
+    font-size:15px ;
+    padding: 7px 10px ;
+}
+button[type="submit"]{
+    cursor: pointer;
+    background-color:#e3eaf7;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: #4578a4;
+    border: 1px solid #4578a4;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    float: left;
+}
+#prediction-result{
+    margin-top: 150px;
+    text-align: center;
+
+}
+.container1 {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product {
+    position: relative;
+}
+
+.container1 img {
+    width: 13%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+}
+
+.container1 img:hover {
+    width: 30%;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+.product:hover .buy-button {
+    opacity: 1;
+}
+
+#ürünlerh3 {
+    font-size: 55px;
+    color: #003666;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+#socialfooter{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+    color: #ddd;
+}
+.ikon{
+    margin-right: 8px;
+}
+#h2{
+    text-align: center;
+    color: ;
+
+}
+    </style>
+</head>
+<body>
+    <section id="menu">
+        <div id="logo">HealtyLife</div> 
+        <nav> 
+            <a href=""><i class="fa-solid fa-house ikon"></i>Anasayfa </a>
+            <a href="#hakkimizda"><i class="fa-solid fa-info ikon"></i>Hakkımızda</a>
+            <a href="#ModelTahmin"><i class="fa-solid fa-utensils ikon"></i>ModelTahmin</a>
+            <a href="#OcrAnaliz"><i class="fa-solid fa-camera ikon"></i>OcrAnaliz</a>
+            <a href="#iletisim"><i class="fa-solid fa-map-pin ikon"></i>İletişim</a>
+        </nav>
+     </section>
+
+     <section id="anasayfa">
+        <div id="black">
+
+        </div>
+        <div id="icerik">
+            <h2>HealtyLife</h2>
+            <hr width="300" align="left">
+            <p>"Sağlıklı beslenme, geleceğinize yatırım yapmaktır. Temiz içerikli yiyeceklerle doğru seçimler yaparak hem bedeninizi hem de yaşam kalitenizi artırın. Şimdi daha sağlıklı bir yaşam için adım atın!" </p>
+        </div>
+     </section>
+       
+
+     <section id="hakkimizda">
+        <h3>Hakkımızda</h3>
+        <div class="container">
+            <div id="sol">
+                <h5 id="h5sol">
+                    Web sitemiz, gıda ürünleri hakkında daha bilinçli ve güvenli seçimler yapmanıza yardımcı olmak için tasarlanmıştır.
+                </h5>
+            </div>
+            <div id="sag">
+                <span >M</span>
+                <p id="psag">
+                    akine öğrenme teknolojisi ile gıda ürünlerinin ana malzemelerini ve şeker türlerini analiz ederek alerjen içerip içermediğini tahmin eder. Ayrıca, OCR teknolojisiyle ürün etiketlerinden metinleri çıkarır ve içeriği detaylı şekilde analiz eder, böylece bilinçli seçimler yapmanıza yardımcı olur.
+                </p>
+            </div>
+
+            <img src="{{ url_for('static', filename='hel.png') }}" alt="" class="img-fluid mt100">
+
+
+            <p id="pson">Amacımız, size daha sağlıklı ve bilinçli beslenme kararları verme konusunda destek olmak. Gıda içeriği ve alerjenler hakkında bilgi sahibi olarak, yaşam kalitenizi artırmak için hemen adım atın.</p>
+
+
+
+
+        </div>
+     </section>
+
+     <section id="ModelTahmin">
+        <div class="container">
+            <h3>Alerjen Tahmin Modelimiz</h3>
+            <div class="box" id="prediction-box">
+                
+                <form id="prediction-form">
+                    <div class="form-group">
+                        <label style="color:#0d60aa "  for="main-ingredient">Ana Malzeme (Main Ingredient):</label>
+                        <input type="text" id="main-ingredient" name="main-ingredient" required>
+                    </div>
+                    <div class="form-group">
+                        <label style="color:#0d60aa" for="sweetener">Tatlandırıcı (Sweetener):</label>
+                        <input type="text" id="sweetener" name="sweetener" required>
+                    </div>
+                    <div class="form-group">
+                        <label  style="color:#0d60aa"   for="fat-oil">Yağ (Fat/Oil):</label>
+                        <input type="text" id="fat-oil" name="fat-oil" required>
+                    </div>
+                    <div class="form-group">
+                        <label style="color:#0d60aa" for="seasoning">Baharat (Seasoning):</label>
+                        <input type="text" id="seasoning" name="seasoning" required>
+                    </div>
+                    <button  style="color:#0d60aa" type="submit" class="btn">Tahmin Et (Predict)</button>
+                </form>
+                <div id="prediction-result" class="result" style="display: none;"></div>
+            </div>
+     </section>
+
+     <section id="OcrAnaliz">
+        <div class="container">
+            <h1>Allergen Detection</h1>
+            <form id="uploadForm">
+                <div class="form-group">
+                    <label for="file">Choose image file:</label>
+                    <input type="file" id="file" name="file">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Upload & Analyze</button>
+                </div>
+            </form>
+            <div class="results" id="results">
+                <!-- sonuçlar -->
+            </div>
+        </div>
+</section>
+        
+
+     </section>
+     <script>
+        // Alerjen tahmin formunu işleyin
+        document.getElementById('prediction-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const mainIngredient = document.getElementById('main-ingredient').value;
+            const sweetener = document.getElementById('sweetener').value;
+            const fatOil = document.getElementById('fat-oil').value;
+            const seasoning = document.getElementById('seasoning').value;
+    
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    'Main Ingredient': mainIngredient,
+                    'Sweetener': sweetener,
+                    'Fat/Oil': fatOil,
+                    'Seasoning': seasoning
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('prediction-result');
+                if (data.error) {
+                    resultDiv.textContent = `Hata: ${data.error}`;
+                } else {
+                    resultDiv.innerHTML = `<strong>Tahmin:</strong><br>${data.prediction === 1 ? 'Alerjen içeriyor. Etiketinde veya içindekiler listesinde açıkça belirtilmiştir.' : 'Alerjen içermiyor'}`;
+                }
+                resultDiv.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+
+        // OCR yükleme formunu işleyin
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            var formData = new FormData();
+            var fileField = document.querySelector("input[type='file']");
+
+            formData.append('file', fileField.files[0]);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                var resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+
+                var nutrients = data.nutrients;
+                var ingredients = data.ingredients;
+                var allergens = data.allergens;
+
+                var nutrientsHTML = '<h2>Nutrients</h2>';
+                for (var nutrient in nutrients) {
+                    nutrientsHTML += '<p>' + nutrient + ': ' + nutrients[nutrient] + '</p>';
+                }
+
+                var ingredientsHTML = '<h2>Ingredients</h2><p>' + ingredients.join(', ') + '</p>';
+
+                var allergensHTML = '<h2>Allergens</h2>';
+                allergens.forEach(function(allergen) {
+                    allergensHTML += '<div class="allergen">';
+                    allergensHTML += '<p><b>Allergen:</b> ' + allergen.allergen + '</p>';
+                    allergensHTML += '<p><b>Description:</b> ' + allergen.description + '</p>';
+                    allergensHTML += '<p><b>Symptoms:</b> ' + allergen.symptoms + '</p>';
+                    allergensHTML += '</div>';
+                });
+
+                resultsDiv.innerHTML = nutrientsHTML + ingredientsHTML + allergensHTML;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+    <h3 id="ürünlerh3" >Besleyici ve Doğal Ürünler</h3> 
+    <section>
+        <div class="container1">
+                          
+            <img src="{{ url_for('static', filename='ürün1.jpg') }}" >
+            <img src="{{ url_for('static', filename='ürün2.jpg') }}" >
+            <img src="{{ url_for('static', filename='ürün3.jpg') }}" >
+            <img src="{{ url_for('static', filename='ürün4.jpg') }}" >
+            <img src="{{ url_for('static', filename='ürün5.jpg') }}" >
+            <img src="{{ url_for('static', filename='ürün6.jpg') }}" >
+               
+        </div>
+    </section>
+    <div id="alisveris">
+        <h2 id="h2">Alışverişe Başla</h2>
+    </div>
+
+    <section id="iletisim">
+        <div class="container">
+            <h3 id="h3iletisim">İletişim</h3>
+            <div id="iletisimopak">
+                <form id="contact-form" action="/iletisim" method="post">
+                    <div id="formgrupp">
+                        <div id="solform">
+                            <input type="text" name="isim" placeholder="Ad Soyad" required class="form-control">
+                            <input type="text" name="tel" placeholder="Telefon Numarası" required class="form-control">
+                        </div>
+                        <div id="sagform">
+                            <input type="email" name="mail" placeholder="Mail Adresiniz" required class="form-control">
+                            <input type="text" name="konu" placeholder="Konu Başlığı" required class="form-control">
+                        </div>
+                        <textarea name="mesaj" id="" cols="30" placeholder="Mesaj Giriniz" rows="10" required class="form-control"></textarea>
+                        <input type="submit" value="Gönder">
+                    </div>
+                </form>
+                <div id="adres">
+                    <h4 id="adresbaslik">Adres: </h4>
+                    <p class="adresp">Yeni Mahalle</p>
+                    <p class="adresp">Şehit Astsubay Mustafa Soner Varlık Caddesi</p>
+                    <p class="adresp">No:77, 10250</p>
+                    <p class="adresp">Bandırma Onyedi Eylül Üniversitesi</p>
+                    <p class="adresp">0212 212 21 12</p>
+                    <p class="adresp">info@healtylife.com.tr</p>
+                </div>
+            </div>
+    
+            <footer>
+                <div id="copyright">2024 | Tüm Hakları Saklıdır</div>
+                <div id="socialfooter">
+                    <a style="margin: 15px;"href="#"><i class="fab fa-facebook-f social"></i></a>
+                    <a style="margin: 15px;"  href="#"><i class="fab fa-google-plus-g social"></i></a>
+                    <a style="margin: 15px;" href="#"><i class="fab fa-twitter social"></i></a>
+                </div>
+                <a href="#menu"><p id="up">Başa Dön</p></a>
+            </footer>
+        </div>
+    </section>
+    
+
+</body>
+</html>
+
+
+
